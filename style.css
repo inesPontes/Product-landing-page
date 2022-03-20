@@ -1,0 +1,110 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+}
+
+#video {
+  margin-bottom: 30px;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#product {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#header-img {
+  margin-left: 10px;
+}
+
+.motto {
+  font-family: Lucida Handwriting;
+  font-size: 35px;
+  padding: 30px;
+}
+
+#company {
+  text-align: justify;
+  font-size: 20px;
+  width: 990px;
+  line-height: 2;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+hr {
+  max-width: 70%;
+
+  margin: 0 auto;
+}
+
+#features {
+  display: block;
+  width: 50%;
+  padding: 20px;
+}
+
+.wrapper-feature {
+  display: grid;
+  grid-template-columns: 300px 600px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.wrapper-price {
+  padding: 40px;
+  margin: 0 auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: space-around;
+}
+
+.product {
+  border: solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 20px;
+  justify-self: center;
+}
+
+.main-feature {
+  display: block;
+  font-size: 27px;
+}
+
+.feature-description {
+  font-size: 17px;
+}
