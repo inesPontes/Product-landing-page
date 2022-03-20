@@ -96,8 +96,9 @@ hr {
 }
 
 .icon {
-  font-size: 20px;
+  font-size: 50px;
   justify-self: center;
+  color: rgb(61, 23, 23);
 }
 
 .main-feature {
@@ -106,5 +107,6 @@ hr {
 }
 
 .feature-description {
+  align-items: center;
   font-size: 17px;
 }
