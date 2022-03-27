@@ -1,11 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 ul {
   list-style-type: none;
   display: flex;
@@ -63,8 +57,7 @@ ul {
 }
 
 hr {
-  max-width: 70%;
-
+  max: 70%;
   margin: 0 auto;
 }
 
@@ -76,8 +69,9 @@ hr {
 
 .wrapper-feature {
   display: grid;
-  grid-template-columns: 300px 600px;
+  grid-template-columns: 200px 600px;
   grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 auto;
 }
 
 .wrapper-price {
