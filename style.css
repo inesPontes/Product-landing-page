@@ -1,5 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
+body {
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -52,6 +55,12 @@ ol {
   padding: 30px;
 }
 
+.product {
+  font-family: Lucida Handwriting;
+  color: rgb(61, 23, 23);
+  font-weight: bold;
+}
+
 #company {
   text-align: justify;
   font-size: 20px;
@@ -77,25 +86,30 @@ hr {
   grid-template-columns: 200px 600px;
   grid-template-rows: 1fr 1fr 1fr;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .wrapper-price {
-  padding: 40px;
-  margin: 0 auto;
-  width: 1000px;
+  padding: 20px;
+  margin: 25px auto;
+  width: 800px;
   display: grid;
   grid-template-columns: 200px 200px 200px;
   justify-content: space-around;
+  border: 4mm ridge rgba(61, 23, 23, 0.562);
+  border-radius: 10px;
 }
 
 .product {
   padding: 10px;
   text-align: center;
+  border-spacing: 1px;
+  border-color: black;
 }
 
 .price {
   text-align: center;
-  font-size: larger;
+  font-size: 20px;
 }
 
 .desc {
@@ -103,9 +117,23 @@ hr {
 }
 .order {
   padding: 5px;
-
   text-align: center;
   margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.info {
+  font-size: 18px;
 }
 
 .btn-order {
@@ -149,4 +177,13 @@ hr {
 .feature-description {
   align-items: center;
   font-size: 17px;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  width: 100%;
+}
+
+label {
+  padding-top: 8px;
 }
