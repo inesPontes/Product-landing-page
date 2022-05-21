@@ -74,8 +74,9 @@ hr {
 
 #features {
   display: block;
-  width: 50%;
+  width: 90%;
   padding: 20px;
+  margin: 0 auto;
 }
 
 .wrapper-feature {
@@ -203,6 +204,10 @@ i {
 
 label {
   padding-top: 8px;
+}
+
+.row {
+  justify-content: center;
 }
 
 @media (max-width: 650px) {
