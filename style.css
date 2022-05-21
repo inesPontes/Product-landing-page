@@ -211,6 +211,17 @@ label {
 }
 
 @media (max-width: 650px) {
+  ul {
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    font-size: 12px;
+  }
+  #header {
+    max-width: 200px;
+  }
+
   .btn-contact {
     max-width: 200px;
     font-size: 8px;
