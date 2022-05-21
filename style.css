@@ -228,7 +228,7 @@ label {
   }
 
   p {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   h1 {
@@ -243,9 +243,12 @@ label {
     font-size: 11px;
   }
 
-  #company,
-  .flex-container {
+  #company {
     max-width: 450px;
+  }
+
+  .flex-container {
+    max-width: 100%;
   }
 
   video {
